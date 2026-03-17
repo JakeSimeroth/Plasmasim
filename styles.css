@@ -1,0 +1,45 @@
+body, html {
+    margin: 0; padding: 0; width: 100%; height: 100%;
+    background-color: #000; overflow: hidden;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #fff;
+}
+
+#gpuCanvas {
+    display: block; width: 100%; height: 100%;
+}
+
+#ui-panel {
+    position: absolute; top: 20px; left: 20px;
+    background: rgba(10, 15, 25, 0.85);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(100, 150, 255, 0.2);
+    border-radius: 12px; padding: 20px; width: 320px;
+    box-shadow: 0 0 20px rgba(0, 50, 150, 0.5);
+}
+
+h1 {
+    font-size: 1.2rem; margin-top: 0; margin-bottom: 15px;
+    text-transform: uppercase; letter-spacing: 2px;
+    color: #4da8da; text-shadow: 0 0 10px #4da8da;
+}
+
+.metric {
+    font-size: 1.1rem; font-weight: bold; margin-bottom: 10px;
+}
+
+.metric span { color: #ff5722; }
+
+.control-group { margin-top: 15px; }
+
+label {
+    display: block; font-size: 0.85rem; margin-bottom: 5px; color: #aaa;
+}
+
+input[type=range] {
+    width: 100%; accent-color: #4da8da;
+}
+
+.instructions {
+    margin-top: 20px; font-size: 0.75rem; color: #777; line-height: 1.5;
+}
